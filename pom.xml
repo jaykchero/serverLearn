@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.jaykchero</groupId>
+    <artifactId>huanglemall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>haunglemall</name>
+    <description>聚合服务</description>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ware</module>
+        <module>product</module>
+        <module>order</module>
+        <module>mermer</module>
+        <module>coupon</module>
+    </modules>
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
+    </properties>
+
+
+
+</project>
